@@ -11,7 +11,7 @@ class ShortenerListAPIView(ListAPIView):
     queryset=Link.objects.all()
     serializer_class=LinkSerializer
 
-class ShortenerCreateApiView(CreateAPIView):
+class ShortenerCreateAPIView(CreateAPIView):
     serializer_class=LinkSerializer
 
 
